@@ -1,0 +1,9 @@
+{
+    "name": "qemu/apiclient",
+    "autoload": {
+        "psr-4": {
+            "Qemu\\Apiclient\\": "src/"
+        }
+    },
+    "require": {}
+}
