@@ -1,0 +1,42 @@
+# Dependencias
+/vendor/
+/node_modules/
+composer.lock
+npm-debug.log*
+yarn-error.log*
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+/logs/
+
+# Cache y temporales
+*.cache
+*.tmp
+/temp/
+/cache/
+
+# Tests
+.phpunit.result.cache
+/coverage/
+
+# Archivos de configuración específicos
+/config/local.php
+/config/production.php
